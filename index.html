@@ -5,6 +5,24 @@
     <title>乾坤暗盘 - 数字货币资讯网站</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        // 当网页向下滑动 20px 出现"返回顶部" 按钮
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {console.log(121);
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // 点击按钮，返回顶部
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </head>
 <body>
 <header id="header" class="site-header">
@@ -38,50 +56,50 @@
     <div class="content-left fl">
         <div class="news">
             <h2 class="title">英国皇室婚礼拥抱加密货币 哈里王子推出慈善初始代币发行项目</h2>
-            <p class="con-p">近日，中国银行前副行长王永利在清华大学做分享时，呼吁年轻学子，对比特币应该有更加清醒的认识，理性
+            <p class="con-p" id="con1">近日，中国银行前副行长王永利在清华大学做分享时，呼吁年轻学子，对比特币应该有更加清醒的认识，理性
             看待区块链，对新技术保持好奇，以学习的心态进行研究和探索应用，但不宜过度吹捧或以功利心态看待区块链技术。
             区块链的发展，应跳出挖币造币和封闭运行的“比特币区块链”范式。比特币只是区块链应用的一个突出成果，比特币和区块链
             是两码事，我们都应该看清其本质。同时我们应当关注融合带来的新机会，关注新旧产能转换
             </p>
             <div class="clearfix power">
                 <span class="fl time"><img src="images/time.png" alt="">时间： 2018-4-8  14:37</span>
-                <a href="" class="fr time"><img src="images/copy.png" alt="">复制</a>
+                <a class="fr time btn"  data-clipboard-action="copy" data-clipboard-target="#con1"><img src="images/copy.png" alt="">复制</a>
             </div>
         </div>
         <div class="news">
             <h2 class="title">英国皇室婚礼拥抱加密货币 哈里王子推出慈善初始代币发行项目</h2>
-            <p class="con-p">近日，中国银行前副行长王永利在清华大学做分享时，呼吁年轻学子，对比特币应该有更加清醒的认识，理性
+            <p class="con-p" id="con2">近日，中国银行前副行长王永利在清华大学做分享时，呼吁年轻学子，对比特币应该有更加清醒的认识，理性
                 看待区块链，对新技术保持好奇，以学习的心态进行研究和探索应用，但不宜过度吹捧或以功利心态看待区块链技术。
                 区块链的发展，应跳出挖币造币和封闭运行的“比特币区块链”范式。比特币只是区块链应用的一个突出成果，比特币和区块链
                 是两码事，我们都应该看清其本质。同时我们应当关注融合带来的新机会，关注新旧产能转换
             </p>
             <div class="clearfix power">
                 <span class="fl time"><img src="images/time.png" alt="">时间： 2018-4-8  14:37</span>
-                <a href="" class="fr time"><img src="images/copy.png" alt="">复制</a>
+                <a class="fr time btn"  data-clipboard-action="copy" data-clipboard-target="#con2"><img src="images/copy.png" alt="">复制</a>
             </div>
         </div>
         <div class="news">
             <h2 class="title">英国皇室婚礼拥抱加密货币 哈里王子推出慈善初始代币发行项目</h2>
-            <p class="con-p">近日，中国银行前副行长王永利在清华大学做分享时，呼吁年轻学子，对比特币应该有更加清醒的认识，理性
+            <p class="con-p" id="con3">近日，中国银行前副行长王永利在清华大学做分享时，呼吁年轻学子，对比特币应该有更加清醒的认识，理性
                 看待区块链，对新技术保持好奇，以学习的心态进行研究和探索应用，但不宜过度吹捧或以功利心态看待区块链技术。
                 区块链的发展，应跳出挖币造币和封闭运行的“比特币区块链”范式。比特币只是区块链应用的一个突出成果，比特币和区块链
                 是两码事，我们都应该看清其本质。同时我们应当关注融合带来的新机会，关注新旧产能转换
             </p>
             <div class="clearfix power">
                 <span class="fl time"><img src="images/time.png" alt="">时间： 2018-4-8  14:37</span>
-                <a href="" class="fr time"><img src="images/copy.png" alt="">复制</a>
+                <a class="fr time btn"  data-clipboard-action="copy" data-clipboard-target="#con3"><img src="images/copy.png" alt="">复制</a>
             </div>
         </div>
         <div class="news">
             <h2 class="title">英国皇室婚礼拥抱加密货币 哈里王子推出慈善初始代币发行项目</h2>
-            <p class="con-p">近日，中国银行前副行长王永利在清华大学做分享时，呼吁年轻学子，对比特币应该有更加清醒的认识，理性
+            <p class="con-p" id="con4">近日，中国银行前副行长王永利在清华大学做分享时，呼吁年轻学子，对比特币应该有更加清醒的认识，理性
                 看待区块链，对新技术保持好奇，以学习的心态进行研究和探索应用，但不宜过度吹捧或以功利心态看待区块链技术。
                 区块链的发展，应跳出挖币造币和封闭运行的“比特币区块链”范式。比特币只是区块链应用的一个突出成果，比特币和区块链
                 是两码事，我们都应该看清其本质。同时我们应当关注融合带来的新机会，关注新旧产能转换
             </p>
             <div class="clearfix power">
                 <span class="fl time"><img src="images/time.png" alt="">时间： 2018-4-8  14:37</span>
-                <a href="" class="fr time"><img src="images/copy.png" alt="">复制</a>
+                <a class="fr time btn"  data-clipboard-action="copy" data-clipboard-target="#con4"><img src="images/copy.png" alt="">复制</a>
             </div>
         </div>
     </div>
@@ -102,6 +120,20 @@
         版权所有：乾坤暗盘
     </p>
 </footer>
+<button onclick="topFunction()" id="myBtn" title="回顶部">返回<br>顶部</button>
+<script src="js/clipboard.min.js"></script>
+<script>
 
+    var clipboard = new ClipboardJS('.btn');
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+
+</script>
 </body>
 </html>
