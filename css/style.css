@@ -148,6 +148,11 @@ h1.entry-title {
     display: inline-block;
     color: #595757;
 }
+.content-left .time:hover{
+    color: #225ba2;;
+    cursor:pointer;
+}
+
 .content-left .time img{
     vertical-align:-2px;
     width: 16px;
