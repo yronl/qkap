@@ -63,6 +63,9 @@ body {
     display: inline-block;
     color: #fff;
 }
+.menu li a:hover {
+    background-color:  #3a4863;
+}
 
 .single #post-title, .page #post-title {
     padding: 6em 0 3em;
